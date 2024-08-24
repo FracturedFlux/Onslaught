@@ -1,0 +1,1 @@
+execute if entity @s[tag=onslaught.vein_decimator] run function onslaught:block/vein_decimator/tick

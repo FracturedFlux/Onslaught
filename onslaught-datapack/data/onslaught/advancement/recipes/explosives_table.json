@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "click": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:gunpowder"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "onslaught:explosives_table"
+        ]
+    }
+}

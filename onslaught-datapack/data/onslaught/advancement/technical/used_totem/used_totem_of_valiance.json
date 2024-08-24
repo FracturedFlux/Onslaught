@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "used_totem": {
+            "trigger": "minecraft:used_totem",
+            "conditions": {
+                "item": {
+                    "components": {
+                        "minecraft:custom_data": {
+                            "onslaught": {
+                                "id": "totem_of_valiance"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "onslaught:item/totem_of_valiance/used"
+    }
+}

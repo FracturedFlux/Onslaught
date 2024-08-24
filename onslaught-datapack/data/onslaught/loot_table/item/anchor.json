@@ -1,0 +1,71 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_sword",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "onslaught": {
+                                        "id": "anchor"
+                                    }
+                                },
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "type": "minecraft:generic.attack_damage",
+                                            "amount": 5,
+                                            "operation": "add_value",
+                                            "id": "onslaught:anchor_damage",
+                                            "slot": "mainhand"
+                                        },
+                                        {
+                                            "type": "minecraft:generic.attack_speed",
+                                            "amount": -3,
+                                            "operation": "add_value",
+                                            "id": "onslaught:anchor_speed",
+                                            "slot": "mainhand"
+                                        }
+                                    ],
+                                    "show_in_tooltip": false
+                                },
+                                "minecraft:rarity": "uncommon"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {"translate":"onslaught.item.anchor"},
+                            "target": "item_name"
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [[{"text":"0","font":"onslaught:symbols","italic":false,"color":"white"},{"text": " ","font":"minecraft:default"},{"translate":"pack.onslaught","font":"minecraft:default","italic":true,"color":"#8b5da9"}],
+                            {"text": ""},
+                            {"translate": "item.modifiers.mainhand","color": "gray","italic": false},
+                            [" ",{"translate": "attribute.modifier.equals.0","italic": false,"color": "dark_green","with": ["6",{"translate": "attribute.name.generic.attack_damage"}]}],
+                            [" ",{"translate": "attribute.modifier.equals.0","italic": false,"color": "dark_green","with": ["1",{"translate": "attribute.name.generic.attack_speed"}]}],
+                            [" ",{"translate": "attribute.modifier.equals.0","italic": false,"color": "aqua","with": ["+4",{"translate": "attribute.name.generic.attack_damage_in_water"}]}]
+                        ],
+                            "mode": "replace_all"
+                        },
+                        {
+                            "function": "set_custom_model_data",
+                            "value": 1892000
+                        },
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "onslaught:nautical_vigor": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

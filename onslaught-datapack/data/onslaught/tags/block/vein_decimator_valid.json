@@ -1,0 +1,25 @@
+{
+    "values": [
+        "minecraft:andesite",
+        "minecraft:granite",
+        "minecraft:diorite",
+        "#minecraft:coal_ores",
+        "#minecraft:gold_ores",
+        "#minecraft:iron_ores",
+        "#minecraft:lapis_ores",
+        "#minecraft:copper_ores",
+        "#minecraft:diamond_ores",
+        "#minecraft:emerald_ores",
+        "#minecraft:redstone_ores",
+        "minecraft:nether_quartz_ore",
+        "minecraft:gravel",
+        "minecraft:dripstone_block",
+        "minecraft:clay",
+        "minecraft:dirt",
+        "minecraft:smooth_basalt",
+        "minecraft:calcite",
+        "minecraft:tuff",
+        "minecraft:sculk",
+        "minecraft:amethyst_block"
+    ]
+}

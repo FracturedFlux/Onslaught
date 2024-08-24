@@ -1,0 +1,1 @@
+execute if entity @s[nbt={powered:1b}] run function onslaught:entity/creeper/charged/tick

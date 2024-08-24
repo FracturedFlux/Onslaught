@@ -1,0 +1,39 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:totem_of_undying",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "onslaught": {
+                                        "id": "totem_of_valiance"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {"translate":"onslaught.item.totem_of_valiance"},
+                            "target": "item_name"
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [[{"text":"0","font":"onslaught:symbols","italic":false,"color":"white"},{"text": " ","font":"minecraft:default"},{"translate":"pack.onslaught","font":"minecraft:default","italic":true,"color":"#8b5da9"}]],
+                            "mode": "replace_all"
+                        },
+                        {
+                            "function": "set_custom_model_data",
+                            "value": 1892000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
