@@ -1,1 +1,0 @@
-execute if entity @s[type=minecraft:creeper] run function onslaught:entity/creeper/process

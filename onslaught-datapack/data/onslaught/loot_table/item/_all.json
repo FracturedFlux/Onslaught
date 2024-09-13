@@ -1,7 +1,0 @@
-{
-    "pools": [
-        {"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "onslaught:item/vein_decimator"}]},
-        {"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "onslaught:item/anchor"}]},
-        {"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "onslaught:item/totem_of_valiance"}]}
-    ]
-}

@@ -1,2 +1,0 @@
-#execute if entity @s[nbt={SelectedItem:{tag:{onslaught:{id:"ancient_blade"}}}}] at @s anchored eyes run function onslaught:item/ancient_blade/raycast
-scoreboard players reset @s onslaught.warped_fungus_on_a_stick

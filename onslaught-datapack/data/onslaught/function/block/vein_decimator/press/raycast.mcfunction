@@ -1,3 +1,0 @@
-execute if block ^ ^ ^0.01 minecraft:dropper{Lock:"§onslaught.vein_decimator"} positioned ^ ^ ^0.01 align xyz positioned ~0.5 ~0.5 ~0.5 run return run execute as @n[type=minecraft:item_display,distance=..0.0001,tag=onslaught.vein_decimator,tag=!onslaught.vein_decimator.pressed] at @s run function onslaught:block/vein_decimator/press/main
-scoreboard players remove @s onslaught.dummy 1
-execute if score @s onslaught.dummy matches 1.. positioned ^ ^ ^0.01 run function onslaught:block/vein_decimator/press/raycast

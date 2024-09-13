@@ -1,1 +1,0 @@
-execute if data storage smithed.custom_block:main {blockApi:{id:"onslaught:vein_decimator"}} run function onslaught:block/vein_decimator/place

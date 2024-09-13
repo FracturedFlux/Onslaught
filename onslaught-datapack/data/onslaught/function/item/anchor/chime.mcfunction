@@ -1,1 +1,0 @@
-execute at @s run playsound onslaught:item.anchor.chime player @a ~ ~ ~ 1 1
