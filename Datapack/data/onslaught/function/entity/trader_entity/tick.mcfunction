@@ -1,0 +1,1 @@
+execute unless entity @s[nbt={HurtTime:0s}] run function onslaught:entity/trader_entity/hurt

@@ -1,0 +1,9 @@
+{
+    "values": [
+        "minecraft:item_display",
+        "minecraft:interaction",
+        "minecraft:wandering_trader",
+        "minecraft:marker",
+        "minecraft:arrow"
+    ]
+}

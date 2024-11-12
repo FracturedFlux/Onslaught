@@ -1,0 +1,43 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:arrow",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_model": "onslaught:fools_arrow",
+                                "minecraft:custom_data": {
+                                    "onslaught": {
+                                        "id": "fools_arrow"
+                                    },
+                                    "smithed": {
+                                        "ignore": {
+                                            "crafting": true
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {"translate":"item.onslaught.fools_arrow"},
+                            "target": "item_name"
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                [{"translate":"pack.onslaught","font":"onslaught:title","italic":false,"color":"white"}]
+                        ],
+                            "mode": "replace_all"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

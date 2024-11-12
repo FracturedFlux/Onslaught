@@ -1,0 +1,1 @@
+execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{onslaught:{entity:"wandering_witness"}}}}}] run playsound entity.wandering_trader.death neutral @a[distance=..16]

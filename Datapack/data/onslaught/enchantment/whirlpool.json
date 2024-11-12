@@ -1,0 +1,108 @@
+{
+    "anvil_cost": 4,
+    "description": [
+      {
+        "text": "\uF000",
+        "font": "onslaught:symbols",
+        "color": "gray"
+      },
+      {
+        "translate": "enchantment.onslaught.whirlpool",
+        "font": "minecraft:default"
+      }
+    ],
+    "effects": {
+      "minecraft:post_attack": [
+        {
+          "effect": {
+            "type": "all_of",
+            "effects": [
+              {
+                "type": "minecraft:play_sound",
+                "sound": {
+                  "sound_id": "onslaught:item.anchor.impact"
+                },
+                "pitch": 1,
+                "volume": 1
+              }
+            ]
+          },
+          "affected": "attacker",
+          "enchanted": "attacker",
+          "requirements": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "direct_attacker",
+              "predicate": {
+                "type": "minecraft:player"
+              } 
+            }
+          ]
+        },
+        {
+          "effect": {
+            "type": "all_of",
+            "effects": [
+              {
+                "type": "minecraft:explode",
+                "radius": 5,
+                "block_interaction": "none",
+                "sound": {
+                  "sound_id": ""
+                },
+                "large_particle": {
+                  "type": "minecraft:block",
+                  "block_state": "minecraft:air"
+                },
+                "small_particle": {
+                  "type": "minecraft:block",
+                  "block_state": "minecraft:air"
+                },
+                "knockback_multiplier": -2,
+                "offset": [0,0,0],
+                "attribute_to_user": true
+              },
+              {
+                "type": "minecraft:run_function",
+                "function": "onslaught:enchantment/whirlpool/reset_item_motion"
+              }
+            ]
+          },
+          "affected": "attacker",
+          "enchanted": "attacker",
+          "requirements": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "direct_attacker",
+              "predicate": {
+                "type": "minecraft:player"
+              } 
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "attacker",
+              "predicate": {
+                "flags": {
+                  "is_sneaking": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "max_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "max_level": 1,
+    "min_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "slots": [
+      "mainhand"
+    ],
+    "supported_items": "minecraft:iron_sword",
+    "weight": 2
+  }

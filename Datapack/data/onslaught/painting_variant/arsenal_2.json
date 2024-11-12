@@ -1,0 +1,12 @@
+{
+    "asset_id": "onslaught:arsenal_2",
+    "width": 2,
+    "height": 2,
+    "title": {
+      "translate": "painting.onslaught.arsenal_2.title"
+    },
+    "author": {
+      "translate": "painting.onslaught.author.lead"
+    }
+  }
+  

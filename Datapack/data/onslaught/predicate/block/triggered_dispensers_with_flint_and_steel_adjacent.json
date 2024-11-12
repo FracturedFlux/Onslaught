@@ -1,0 +1,89 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:dispenser",
+                    "state": {
+                        "facing": "west",
+                        "triggered": "true"
+                    },
+                    "nbt": "{Items:[{id:\"minecraft:flint_and_steel\"}]}"
+                }
+            },
+            "offsetX": 1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:dispenser",
+                    "state": {
+                        "facing": "east",
+                        "triggered": "true"
+                    },
+                    "nbt": "{Items:[{id:\"minecraft:flint_and_steel\"}]}"
+                }
+            },
+            "offsetX": -1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:dispenser",
+                    "state": {
+                        "facing": "north",
+                        "triggered": "true"
+                    },
+                    "nbt": "{Items:[{id:\"minecraft:flint_and_steel\"}]}"
+                }
+            },
+            "offsetZ": 1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:dispenser",
+                    "state": {
+                        "facing": "south",
+                        "triggered": "true"
+                    },
+                    "nbt": "{Items:[{id:\"minecraft:flint_and_steel\"}]}"
+                }
+            },
+            "offsetZ": -1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:dispenser",
+                    "state": {
+                        "facing": "down",
+                        "triggered": "true"
+                    },
+                    "nbt": "{Items:[{id:\"minecraft:flint_and_steel\"}]}"
+                }
+            },
+            "offsetY": 1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:dispenser",
+                    "state": {
+                        "facing": "up",
+                        "triggered": "true"
+                    },
+                    "nbt": "{Items:[{id:\"minecraft:flint_and_steel\"}]}"
+                }
+            },
+            "offsetY": -1
+        }
+    ]
+}

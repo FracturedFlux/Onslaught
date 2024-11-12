@@ -1,0 +1,68 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone_sword",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:item_model": "onslaught:lapis_knife",
+                                "minecraft:custom_data": {
+                                    "onslaught": {
+                                        "id": "lapis_knife",
+                                        "has_imbuement": false
+                                    },
+                                    "smithed": {
+                                        "ignore": {
+                                            "functionality": true,
+                                            "crafting": true
+                                        }
+                                    }
+                                },
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "type": "minecraft:attack_damage",
+                                            "amount": 3,
+                                            "operation": "add_value",
+                                            "id": "onslaught:lapis_knife_attack_damage",
+                                            "slot": "mainhand"
+                                        },
+                                        {
+                                            "type": "minecraft:attack_speed",
+                                            "amount": -2,
+                                            "operation": "add_value",
+                                            "id": "onslaught:lapis_knife_attack_speed",
+                                            "slot": "mainhand"
+                                        }
+                                    ],
+                                    "show_in_tooltip": false
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {"translate":"item.onslaught.lapis_knife"},
+                            "target": "item_name"
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {"translate":"pack.onslaught","font":"onslaught:title","italic":false,"color":"white"},
+                                {"text":" "},
+                                {"translate":"item.modifiers.mainhand","color":"gray","italic":false},
+                                [{"text":" 4 ","color":"dark_green","italic":false},{"translate":"attribute.name.attack_damage","color":"dark_green","italic":false}],
+                                [{"text":" 2 ","color":"dark_green","italic":false},{"translate":"attribute.name.attack_speed","color":"dark_green","italic":false}]
+                            ],
+                            "mode": "replace_all"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

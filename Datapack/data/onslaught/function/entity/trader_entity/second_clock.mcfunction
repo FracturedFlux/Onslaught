@@ -1,0 +1,1 @@
+execute if entity @s[tag=!onslaught.silent,predicate=onslaught:random/0.15] run function onslaught:entity/technical/sounds/ambient

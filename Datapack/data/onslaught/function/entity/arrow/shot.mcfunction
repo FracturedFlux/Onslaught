@@ -1,0 +1,1 @@
+execute if data entity @s {item:{components:{"minecraft:custom_data":{onslaught:{id:"fools_arrow"}}}}} run function onslaught:item/fools_arrow/as_entity/shot

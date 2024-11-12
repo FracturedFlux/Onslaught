@@ -1,0 +1,25 @@
+{
+    "criteria": {
+        "kill": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "player": {
+                    "slots": {
+                        "weapon.mainhand": {
+                            "predicates": {
+                                "minecraft:custom_data": {
+                                    "onslaught": {
+                                        "id": "lapis_knife"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "onslaught:item/lapis_knife/impact"
+    }
+}

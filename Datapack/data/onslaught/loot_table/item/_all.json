@@ -1,0 +1,8 @@
+{
+    "pools": [
+        {"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "onslaught:item/anchor"}]},
+        {"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "onslaught:item/lapis_knife"}]},
+        {"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "onslaught:item/fools_arrow"}]},
+        {"rolls": 1,"entries": [{"type": "minecraft:loot_table","value": "onslaught:item/vanguard_shield"}]}
+    ]
+}

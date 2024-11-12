@@ -1,0 +1,1 @@
+execute if entity @s[tag=onslaught.wandering_witness] unless score @s onslaught.ambient_sound_cooldown matches 1.. run playsound entity.wandering_trader.ambient neutral @a[distance=..16]

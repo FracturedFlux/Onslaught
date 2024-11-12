@@ -1,0 +1,32 @@
+{
+    "anvil_cost": 4,
+    "description": [
+      {
+        "translate": "enchantment.onslaught.technical"
+      }
+    ],
+    "effects": {
+      "minecraft:projectile_spawned": [
+        {
+            "effect": {
+                "type": "minecraft:run_function",
+                "function": "onslaught:item/fools_arrow/fire"
+            }
+        }
+      ]
+    },
+    "max_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "max_level": 1,
+    "min_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "slots": [
+      "mainhand"
+    ],
+    "supported_items": "minecraft:bow",
+    "weight": 2
+  }

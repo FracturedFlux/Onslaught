@@ -1,0 +1,1 @@
+item modify entity @s[gamemode=!creative] weapon.mainhand onslaught:reduce_count

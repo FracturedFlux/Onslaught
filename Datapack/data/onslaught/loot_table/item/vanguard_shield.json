@@ -1,0 +1,43 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:shield",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_model": "onslaught:vanguard_shield",
+                                "minecraft:custom_data": {
+                                    "onslaught": {
+                                        "id": "vanguard_shield"
+                                    },
+                                    "smithed": {
+                                        "ignore": {
+                                            "crafting": true
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {"translate":"item.onslaught.vanguard_shield"},
+                            "target": "item_name"
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                [{"translate":"pack.onslaught","font":"onslaught:title","italic":false,"color":"white"}]
+                        ],
+                            "mode": "replace_all"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

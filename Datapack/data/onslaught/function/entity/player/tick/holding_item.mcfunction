@@ -1,0 +1,1 @@
+execute if score @s onslaught.warped_fungus_on_a_stick matches 1.. run function onslaught:entity/player/inputs/warped_fungus_on_a_stick

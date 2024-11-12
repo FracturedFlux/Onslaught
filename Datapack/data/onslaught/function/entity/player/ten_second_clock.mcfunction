@@ -1,0 +1,1 @@
+execute if dimension minecraft:the_nether if score @s onslaught.time_in_nether matches 60.. unless score @s onslaught.wandering_witness_spawn_cooldown matches 1.. unless entity @e[tag=onslaught.wandering_witness,distance=..256] run function onslaught:entity/wandering_witness/spawning/attempt/main
