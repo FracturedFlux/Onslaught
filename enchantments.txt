@@ -17,7 +17,7 @@ Fire Aspect - Magma Cube
 Looting - 
 Knockback - Ravager
 Sharpness - Piglin Brute
-Smite - Skeleton Horse
+Smite - Wither
 Sweeping Edge - Sword Piglin
 Channeling - Charged Creeper
 Flame - Blaze
